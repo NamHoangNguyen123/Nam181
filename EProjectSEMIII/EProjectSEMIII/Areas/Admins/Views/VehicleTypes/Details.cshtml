@@ -1,0 +1,38 @@
+﻿@model EProjectSEMIII.Models.VehicleType
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admins/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>VehicleType</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NameOfVehicleType)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NameOfVehicleType)
+        </dd>
+        <dt>
+            @if (Model.Status == 0)
+            {
+                <span style="color:aqua">Show</span>
+            }
+            else
+            {
+                <span style="color:red">Hide</span>
+            }
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.VehicleTypeId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

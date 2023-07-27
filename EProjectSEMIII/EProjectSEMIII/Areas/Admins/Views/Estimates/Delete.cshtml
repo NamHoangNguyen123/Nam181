@@ -1,0 +1,88 @@
+﻿@model EProjectSEMIII.Models.Estimate
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Areas/Admins/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Estimate</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CustomerName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerPhone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CustomerPhone)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.EstimateNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.EstimateNumber)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VehicleName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehicleName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VehicleModel)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehicleModel)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VehicleRate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehicleRate)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VehicleWarranty)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehicleWarranty)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VehiclePolicyType)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehiclePolicyType)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.VehicleInfomation)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehicleInfomation.VehicleInfomationId)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.InsuranceType)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.InsuranceType.InsurenceTypeId)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="EstimateId" />
+        <input type="submit" value="Delete" class="btn btn-default" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>

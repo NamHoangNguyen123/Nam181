@@ -1,0 +1,90 @@
+﻿@model IEnumerable<EProjectSEMIII.Models.CustomerPolicy>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admins/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>View all insurance of customer</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.InsuranceType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VehicleName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VehicleModel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PolicyNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PolicyDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PolicyDuration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BillingInformation.Amount)
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.InsuranceType.TypeOfInsurence)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleModel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PolicyNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PolicyDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PolicyDuration) months
+            </td>
+            @if(item.Status == 0)
+            {
+                <td style="color:red">Un Active</td>
+
+            }
+            else
+            {
+                <td style="color: green">Activated</td>
+            }
+            <td>
+               $ @Html.DisplayFor(modelItem => item.BillingInformation.Amount)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.CustomerPolicyId">Details</a> 
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

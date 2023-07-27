@@ -1,0 +1,107 @@
+﻿@model IEnumerable<EProjectSEMIII.Models.CustomerPolicy>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="page-title-section bg-img cover-background left-overlay-dark" data-overlay-dark="6" data-background="/Client/img/banner/slide-05.jpg">
+    <div class="container position-unset">
+        <div class="page-title mx-1-6 mx-lg-2-0 mx-xl-2-6 mx-xxl-2-9">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>My Insurance</h1>
+                </div>
+                <div class="col-md-12">
+                    <ul class="ps-0">
+                        <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a href="#!">My Insurance</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES
+================================================== -->
+<section>
+    <div class="container">
+        <div class="row mt-n2-2">
+            @foreach (var item in Model)
+            {
+                    <div class="col-lg-6 mb-7">
+                        <a asp-action="Details" asp-controller="CustomerPolicy" asp-route-id="@item.CustomerPolicyId" class="card card-style2 border-0 h-100">
+                            <div class="card-body px-1-9 py-5 py-sm-6 text-center">
+                                <h3 class="h5 mb-3">@item.InsuranceType.TypeOfInsurence</h3>
+                                <p class="mb-0">Estimate: @item.EstimateNumber</p>
+                                <p class="mb-0">@item.PolicyDate.ToString("dd MMM yyyy")--@item.PolicyDate.AddMonths(item.PolicyDuration).ToString("dd MMM yyyy")</p>
+                            </div>
+                        </a>
+                    </div>
+            }
+        </div>
+    </div>
+</section>
+
+@*<tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerAdd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerAddProve)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PolicyNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PolicyDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PolicyDuration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleModel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleVersion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleRate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleBodyNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleEngineNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerRecord.CustomerRecordId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InsuranceType.InsurenceTypeId)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CustomerPolicyId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CustomerPolicyId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CustomerPolicyId">Delete</a>
+            </td>
+        </tr>
+    }
+</tbody>
+</table>*@

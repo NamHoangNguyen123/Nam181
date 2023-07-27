@@ -1,0 +1,214 @@
+﻿
+@model EProjectSEMIII.Models.VehicleInfomation
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- PAGE TITLE
+================================================== -->
+<section class="page-title-section bg-img cover-background left-overlay-dark" data-overlay-dark="6" data-background="/Client/img/banner/slide-05.jpg">
+    <div class="container position-unset">
+        <div class="page-title mx-1-6 mx-lg-2-0 mx-xl-2-6 mx-xxl-2-9">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Quote</h1>
+                </div>
+                <div class="col-md-12">
+                    <ul class="ps-0">
+                        <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a href="#!">Quote</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICE DETAILS
+================================================== -->
+<section>
+    <div class="container">
+        <div class="row">
+            <!-- start links -->
+            <div class="filtering col-sm-12 text-center">
+
+                @foreach (VehicleType items in ViewBag.VehicleType)
+                {
+                <span data-filter='.life'  class="active"> @Html.ActionLink(items.NameOfVehicleType, "Index", "InsideVehicleTypes", new { @vehicleTypeId = items.VehicleTypeId }, null)</span>
+                }
+
+
+            </div>
+            <!-- end links -->
+        </div>
+        <div class="row">
+            <div class="col-lg-4 order-2 order-lg-1 wow fadeIn" data-wow-delay="200ms">
+                <div class="sidebar pe-xl-4">
+                    <div class="widget mb-1-9 p-4">
+                        <div class="list-style3">
+                            <ul class="list-unstyled mb-0">
+
+                                @foreach (InsideVehicleType item in ViewBag.InsideVehicleType)
+                                {
+                                    <li class="active"><a> @item.Name</a> </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="widget mb-1-9 p-2-2">
+                        <div class="media mb-4">
+                            <i class="ti-mobile text-primary display-23"></i>
+                            <div class="ms-3">
+                                <h4 class="mb-1 h6">Phone</h4>
+                                <span> (+44) 123 456 789</span>
+                            </div>
+                        </div>
+                        <div class="media mb-4">
+                            <i class="ti-email text-primary display-23"></i>
+                            <div class="ms-3">
+                                <h4 class="mb-1 h6">Email</h4>
+                                <span>email@youradress.com</span>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <i class="ti-location-pin text-primary display-23"></i>
+                            <div class="ms-3">
+                                <h4 class="mb-1 h6">Location</h4>
+                                <span>Regina ST, London, SK 8GH.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-img theme-overlay cover-background rounded" data-overlay-dark="8" data-background="img/bg/bg-03.jpg">
+                        <div class="position-relative z-index-9 text-center py-5">
+                            <i class="fas fa-headset text-white mb-4 display-14"></i>
+                            <h5 class="text-white mb-4">How can we help?</h5>
+                            <div class="separator-line-horrizontal-full bg-white opacity4 mb-4"></div>
+                            <ul class="text-center list-unstyled mb-0 ps-0">
+                                <li class="text-white mb-2"><i class="fa fa-phone small text-white me-2"></i><a href="#!" class="text-white">+1 234 567 890</a></li>
+                                <li class="text-white"><i class="fa fa-envelope-open small text-white me-2"></i><a href="#!" class="text-white">addyour@emailhere</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 order-1 order-lg-2 mb-2-9 mb-lg-0 wow fadeIn" data-wow-delay="400ms">
+                <p>Vehicle Information</p>
+                <form asp-action="Create" asp-controller="VehicleInfomation"enctype="multipart/form-data" onclick="" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="quform-elements">
+                        <div class="row">
+                            <!-- Begin Text input element -->
+                            <div class="col-md-6">
+                                <div class="quform-element">
+                                    <label asp-for="VehicleName" class="control-label"></label>
+                                    <div class="quform-input">
+
+
+                                        <input asp-for="VehicleName" class="form-control" />
+                                        <span asp-validation-for="VehicleName" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Text input element -->
+                            <!-- Begin Text input element -->
+                            <div class="col-md-6">
+                                <div class="quform-element">
+                                    <label asp-for="OwnerOfVehicle" class="control-label"></label>
+                                    <div class="quform-input">
+                                        <input asp-for="OwnerOfVehicle" class="form-control" />
+                                        <span asp-validation-for="OwnerOfVehicle" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Text input element -->
+                            <!-- Begin Text input element -->
+                            <div class="col-md-6">
+                                <div class="quform-element">
+                                    <label asp-for="VehicleModel" class="control-label"></label>
+                                    <div class="quform-input">
+                                        <input asp-for="VehicleModel" class="form-control" />
+                                        <span asp-validation-for="VehicleModel" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Text input element -->
+                            <!-- Begin Text input element -->
+                            <div class="col-md-6">
+                                <div class="quform-element">
+                                    <label asp-for="VehicleVersion" class="control-label"></label>
+                                    <div class="quform-input">
+                                        <input asp-for="VehicleVersion" class="form-control" />
+                                        <span asp-validation-for="VehicleVersion" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Text input element -->
+                            <!-- Begin Textarea element -->
+                            <div class="col-md-6">
+                                <div class="quform-element">
+                                    <label asp-for="VehicleRate" class="control-label"></label>
+                                    <div class="quform-input">
+                                        <input asp-for="VehicleRate" class="form-control" />
+                                        <span asp-validation-for="VehicleRate" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="quform-element">
+                                    <label asp-for="VehicleBodyNumber" class="control-label"></label>
+                                    <div class="quform-input">
+                                        <input asp-for="VehicleBodyNumber" class="form-control" />
+                                        <span class="text-danger">@ViewBag.Name</span>
+                                        <span asp-validation-for="VehicleBodyNumber" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="quform-element">
+                                    <label asp-for="VehicleEngine" class="control-label"></label>
+                                    <div class="quform-input">
+                                        <input asp-for="VehicleEngine" class="form-control" />
+                                        <span asp-validation-for="VehicleEngine" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="quform-element">
+                                    <label asp-for="VehicleNumber" class="control-label"></label>
+                                    <div class="quform-input">
+                                        <input asp-for="VehicleNumber" class="form-control" />
+                                        <span asp-validation-for="VehicleNumber" class="text-danger"></span>
+                                    </div>
+                                </div>
+                            </div>
+                         
+                            <input asp-for="CustomerRecordId" value="@ViewBag.UserIdLogin" type="hidden" />
+                            <div class="col-md-6">
+                                <div class="quform-element">
+                                    <label asp-for="InsideVehicleTypeId" class="control-label"></label>
+                                    <div class="quform-input">
+                                        <select asp-for="InsideVehicleTypeId" class="form-control" asp-items="ViewBag.InsideVehicleTypeId">
+
+
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="quform-submit-inner">
+                                    <button class="butn-style3" type="submit"><span>Send Message</span></button>
+                                </div>
+                            </div>
+                            <!-- End Submit button -->
+
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+

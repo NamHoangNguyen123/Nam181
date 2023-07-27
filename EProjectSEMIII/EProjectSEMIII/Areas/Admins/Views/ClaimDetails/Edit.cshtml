@@ -1,0 +1,129 @@
+﻿@model EProjectSEMIII.Models.ClaimDetail
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admins/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Edit</h2>
+
+<h4>ClaimDetail</h4>
+<hr />
+
+    
+<form asp-action="Edit">
+    <div class="row">
+        <div class="col-md-4">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ClaimDetailId" />
+            <div class="form-group">
+                <label asp-for="PolicyNumber" class="control-label"></label>
+                <input asp-for="PolicyNumber" class="form-control" readonly />
+                <span asp-validation-for="PolicyNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PolicyStartDate" class="control-label"></label>
+                <input value="@Model.PolicyStartDate.ToString("dd MMM yyyy")" class="form-control" readonly />
+                <span asp-validation-for="PolicyStartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PolicyEndDate" class="control-label"></label>
+                <input value="@Model.PolicyEndDate.ToString("dd MMM yyyy")" class="form-control" readonly />
+                <span asp-validation-for="PolicyEndDate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PlaceOfAccident" class="control-label"></label>
+                <input asp-for="PlaceOfAccident" class="form-control" readonly />
+                <span asp-validation-for="PlaceOfAccident" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfAccident" class="control-label"></label>
+                <input  class="form-control" value="@Model.DateOfAccident.ToString("dd MMM yyyy")" readonly />
+                <span asp-validation-for="DateOfAccident" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="InsuredAmout" class="control-label"></label>
+                <input asp-for="InsuredAmout" class="form-control" readonly />
+                <span asp-validation-for="InsuredAmout" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ClaimableAmout" class="control-label"></label>
+                <input asp-for="ClaimableAmout" class="form-control" readonly />
+                <span asp-validation-for="ClaimableAmout" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <p>Status</p>
+
+                @if (Model.Status > 0)
+                {
+                    <input type="radio" asp-for="Status" disabled value="0" checked>
+                }
+                else
+                {
+                    <input type="radio" asp-for="Status" value="0" checked>
+                }
+                <label>Spending</label><br>
+                @if (Model.Status > 1)
+                {
+                    <input type="radio" asp-for="Status" disabled value="1">
+                }
+                else
+                {
+                    <input type="radio" asp-for="Status" value="1">
+                }
+                <label>Processing</label><br>
+                <input type="radio" asp-for="Status" value="2">
+                <label>Completed</label><br>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            @if (Model.AdminId != null)
+            {
+                <div class="form-group">
+                    <label asp-for="AdminId" class="control-label"></label>
+                    <input class="form-control" value="@Model.AdminId" readonly />
+                    <span asp-validation-for="AdminId" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Admin" class="control-label"></label>
+                    <input class="form-control" value="@Model.Admin.AdminName" readonly />
+                    <span asp-validation-for="AdminId" class="text-danger"></span>
+                </div>
+            }
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ClaimDetailId" readonly/>
+            <div class="form-group">
+                <label class="control-label">Id</label>
+                <input value="@Model.CustomerPolicy.CustomerRecordId" readonly class="form-control" />
+                <span asp-validation-for="PolicyNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerName" class="control-label"></label>
+                <input asp-for="CustomerName" class="form-control" readonly />
+                <span asp-validation-for="CustomerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Phone</label>
+                <input value="@Model.CustomerPolicy.CustomerPhone" readonly class="form-control" />
+                <span asp-validation-for="PolicyNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Address</label>
+                <input value="@Model.CustomerPolicy.CustomerAdd" readonly class="form-control" />
+                <span asp-validation-for="PolicyNumber" class="text-danger"></span>
+            </div>
+        </div>
+
+    </div>
+</form>
+    
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

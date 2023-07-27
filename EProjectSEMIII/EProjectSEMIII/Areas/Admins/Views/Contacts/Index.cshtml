@@ -1,0 +1,56 @@
+﻿@model IEnumerable<EProjectSEMIII.Models.Contact>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admins/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CusName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CusMail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Subject)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContactNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Message)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CusName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CusMail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Subject)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Message)
+            </td>
+            <td>
+                <a asp-action="Details" asp-route-id="@item.ContactId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ContactId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

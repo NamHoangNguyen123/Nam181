@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admins/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div>
+    <h4 style="color:green">@ViewBag.success</h4>
+    <hr />
+    <a asp-action="Details" asp-route-id="@ViewBag.id">Back to Details</a>
+</div>

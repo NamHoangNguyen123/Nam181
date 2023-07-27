@@ -1,0 +1,37 @@
+﻿@model EProjectSEMIII.Areas.Admins.Models.LoginAdmin
+@{
+    ViewData["Title"] = "Login-Admin";
+    Layout = "";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<link href="~/Admin/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<!-- Icons Css -->
+<link href="~/Admin/css/icons.min.css" rel="stylesheet" type="text/css" />
+<!-- App Css-->
+<link href="~/Admin/css/app.min.css" rel="stylesheet" type="text/css" />
+<div class="row text-center pt-5" style="margin-top:150px">
+    <h2>Login</h2>
+    <div class="col-4"></div>
+    <div class="col-4">
+        <form action="" method="POST">
+            <!-- Email input -->
+
+            <div class="form-outline mb-4">
+                <input type="text" asp-for="UserName" class="form-control" placeholder="UserName" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+                <input type="password" asp-for="Password" class="form-control" placeholder="Password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+                <span class="text-danger">@Html.ValidationMessage("CustomError")</span>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary btn-block mb-4">Login</button>
+
+        </form>
+    </div>
+    <div class="col-4"></div>
+</div>

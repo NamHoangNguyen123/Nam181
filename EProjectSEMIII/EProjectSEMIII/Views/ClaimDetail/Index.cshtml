@@ -1,0 +1,116 @@
+﻿@model IEnumerable<EProjectSEMIII.Models.ClaimDetail>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="page-title-section bg-img cover-background left-overlay-dark" data-overlay-dark="6" data-background="/Client/img/banner/slide-05.jpg">
+    <div class="container position-unset">
+        <div class="page-title mx-1-6 mx-lg-2-0 mx-xl-2-6 mx-xxl-2-9">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Claims</h1>
+                </div>
+                <div class="col-md-12">
+                    <ul class="ps-0">
+                        <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a href="#!">Claims</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <table class="table mb-0">
+            
+           
+        </table>
+
+        <table class="table mb-0">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PolicyNumber)
+                    </th>
+                    <th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CustomerName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.PlaceOfAccident)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DateOfAccident)
+                    </th>
+                    <th>
+                        Insured
+                    </th>
+                    <th>
+                        Claimable
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CustomerPolicy)
+                    </th>
+                    <th>
+                        Claim Handler
+                    </th>
+                    <th>
+                        Status
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PolicyNumber)
+                        </td>
+                        <td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CustomerName)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.PlaceOfAccident)
+                        </td>
+                        <td>
+                            @item.DateOfAccident.ToString("dd MMM yyyy")
+                        </td>
+                        <td>
+                            $@Html.DisplayFor(modelItem => item.InsuredAmout)
+                        </td>
+                        <td>
+                            $@Html.DisplayFor(modelItem => item.ClaimableAmout)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CustomerPolicy.CustomerPolicyId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Admin.AdminName)
+                        </td>
+                        <td>
+                            @if (item.Status == 0)
+                            {
+                                <span>Pending</span>
+                            }
+                            else if (item.Status == 1)
+                            {
+                                <span>Progressing </span>
+                            }
+                            else
+                            {
+                                <span>Completed</span>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+</section>
+        

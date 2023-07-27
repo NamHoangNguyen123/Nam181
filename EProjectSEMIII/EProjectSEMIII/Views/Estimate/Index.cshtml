@@ -1,0 +1,90 @@
+﻿@model IEnumerable<EProjectSEMIII.Models.Estimate>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="page-title-section bg-img cover-background left-overlay-dark" data-overlay-dark="6" data-background="img/banner/page-title.jpg">
+    <div class="container position-unset">
+        <div class="page-title mx-1-6 mx-lg-2-0 mx-xl-2-6 mx-xxl-2-9">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Estimate</h1>
+                </div>
+                <div class="col-md-12">
+                    <ul class="ps-0">
+                        <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a href="#!">Estimate</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CustomerName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CustomerPhone)
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.EstimateNumber)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.VehicleName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.VehicleWarranty)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.VehiclePolicyType)
+                    </th>
+                    <th>
+                        Action
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CustomerName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CustomerPhone)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EstimateNumber)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.InsuranceType.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.VehicleName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.VehicleWarranty)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.VehiclePolicyType)
+                    </td>
+                    <td>
+                        <a asp-action="Buy" asp-route-id="@item.EstimateId">Buy</a>
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>

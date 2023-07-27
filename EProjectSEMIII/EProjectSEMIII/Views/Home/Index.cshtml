@@ -1,0 +1,124 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- BANNER
+        ================================================== -->
+<section class="bg-img cover-background banner-style1 overflow-visible pb-0 pt-10 pt-md-12 pt-lg-16 pt-xl-20 pt-xxl-24" data-overlay-dark="0" data-background="/Client/img/banner/slide-05.jpg">
+
+    <div class="container pt-8 pt-md-10 pt-lg-14 pt-xl-18 pt-xxl-22">
+        <div class="row">
+            <div class="col-md-9 col-lg-7 col-xl-7 col-xxl-6">
+                <div class="banner-text bg-white p-1-9 p-lg-2-9 rounded">
+                    <h1 class="mb-4">Enjoy quality cover at a great price!</h1>
+                    <p class="mb-2-3 display-30 display-lg-29 display-28 w-lg-90">See how much you can save with SECURE AutoCare</p>
+                    <div>
+                        <a asp-controller="InsideVehicleTypes" asp-action="index" class="butn-style3 small align-middle mb-3 mb-sm-0">Get your quote now!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- CLIENTS
+================================================== -->
+<section class="pt-10 pt-lg-2-3 pb-0">
+    <div class="container">
+        <div class="row justify-content-end">
+            <div class="col-lg-5 col-xxl-6">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <div class="px-md-4 px-lg-0 px-xxl-3 client-style1">
+                            <img src="~/Client/img/partners/partner-7.png" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="px-md-4 px-lg-0 px-xxl-3 client-style1">
+                            <img src="~/Client/img/partners/partner-8.png" alt="...">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="px-md-4 px-lg-0 px-xxl-3 client-style1">
+                            <img src="~/Client/img/partners/partner-9.png" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT US
+================================================== -->
+<section class="about-section">
+    <div class="container mt-lg-3 mt-xl-0">
+        <div class="row clearfix align-items-xl-center">
+            <div class="col-lg-6 text-column mb-2-9 mb-lg-0 wow fadeIn" data-wow-delay="200ms">
+                <div class="pe-xl-2-9">
+                    <h2 class="h1 mb-4">Assist customers with arriving at the objectives.</h2>
+                    <p class="pb-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                    <div class="clearfix d-sm-flex align-items-center mb-2-6">
+                        <ul class="list-style1 mb-1-9 mb-sm-0">
+                            <li>We Can Save You Money.</li>
+                            <li>Production or trading of good</li>
+                            <li>Our Insurance is Flexible.</li>
+                        </ul>
+                        <div class="since">
+                            <span class="txt text-center text-white">Since <br>2005</span>
+                        </div>
+                    </div>
+                    <div>
+                        <a class="butn-style3 medium" asp-controller="Contact" asp-action="Index">Contact Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 position-relative wow fadeIn" data-wow-delay="400ms">
+                <div class="row align-items-center ps-lg-1-9 position-relative z-index-9">
+                    <div class="col-sm-7 d-none d-sm-block">
+                        <img src="~/Client/img/about/about-04.jpg" class="rounded" alt="...">
+                    </div>
+                    <div class="col-sm-5 text-center text-sm-start">
+                        <img src="~/Client/img/about/about-03.jpg" class="rounded" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="circle-md left-10 top-15 border-secondary-color d-none d-xl-block"></div>
+    <div class="bg-img bg-stripes right-25 top-15 ani-left-right d-none d-xl-block" data-background="img/content/bg-stripes.png"></div>
+</section>
+
+<!-- SERVICE
+================================================== -->
+<section class="pt-0">
+    <div class="container">
+        <div class="title-style2 text-center mb-2-9 mb-lg-6 wow fadeIn" data-wow-delay="100ms">
+            <span>Our Services</span>
+            <h2 class="h1 mb-0">Our Provided Services</h2>
+        </div>
+        <div class="row mt-n2-2">
+            @foreach (var item in ViewBag.VehicleType)
+            {
+                <div class="col-md-6 col-xl-3 mt-2-2 wow fadeIn" data-wow-delay="200ms">
+                    <div class="card card-style8">
+                        <div class="card-body px-1-9 py-2-9">
+                            <h3 class="h5 mb-3"><a href="service-details.html">@item.NameOfVehicleType</a></h3>
+                            <p class="mb-1-9 text-color-light-blue">Save more when you buy with SECURE. Great insurance at affordable prices.</p>
+                            <a asp-controller="InsideVehicleTypes" asp-action="Index" asp-route-vehicleTypeId="@item.VehicleTypeId" class="text-dark text-primary-hover font-weight-600">Quote now <i class="ti-arrow-right ms-2 align-middle display-30"></i></a>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+</section>
+
+
+
+
+

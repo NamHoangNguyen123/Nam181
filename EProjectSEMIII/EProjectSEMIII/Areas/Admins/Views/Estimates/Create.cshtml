@@ -1,0 +1,71 @@
+﻿@model EProjectSEMIII.Models.Estimate
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admins/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Create</h2>
+
+<h4>Estimate</h4>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="CustomerName" class="control-label"></label>
+                <input asp-for="CustomerName" class="form-control" readonly ="readonly" value="@ViewBag.customer.CustomerName"/>
+                <span asp-validation-for="CustomerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CustomerPhone" class="control-label"></label>
+                <input asp-for="CustomerPhone" class="form-control" value="@ViewBag.customer.CustomerPhone" readonly ="readonly"/>
+                <span asp-validation-for="CustomerPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EstimateNumber" class="control-label"></label>
+                <input asp-for="EstimateNumber" class="form-control" />
+                <span asp-validation-for="EstimateNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VehicleName" class="control-label"></label>
+                <input asp-for="VehicleName" class="form-control" value="@ViewBag.vehicleInfor.VehicleName" readonly="readonly"/>
+                <span asp-validation-for="VehicleName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VehicleModel" class="control-label"></label>
+                <input asp-for="VehicleModel" class="form-control" value="@ViewBag.vehicleInfor.VehicleModel" readonly="readonly" />
+                <span asp-validation-for="VehicleModel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VehicleRate" class="control-label"></label>
+                <input asp-for="VehicleRate" class="form-control" value="@ViewBag.vehicleInfor.VehicleRate" readonly="readonly"/>
+                <span asp-validation-for="VehicleRate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VehicleWarranty" class="control-label"></label>
+                <input asp-for="VehicleWarranty" class="form-control" />
+                <span asp-validation-for="VehicleWarranty" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="VehiclePolicyType" class="control-label"></label>
+                <input asp-for="VehiclePolicyType" class="form-control" />
+                <span asp-validation-for="VehiclePolicyType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="VehicleInfomationId" class ="form-control" value="@ViewBag.vehicleInfor.VehicleInfomationId" type="hidden"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="InsuranceTypeId" class="control-label">Please choose Insurance</label>
+                <select asp-for="InsuranceTypeId" class ="form-control" asp-items="ViewBag.InsuranceTypeId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Details" asp-action-id="@ViewBag.vehicleInfor.VehicleInfomationId">Back to List</a>
+</div>

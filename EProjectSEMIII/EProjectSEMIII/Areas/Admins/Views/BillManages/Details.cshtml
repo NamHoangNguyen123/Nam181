@@ -1,0 +1,94 @@
+﻿@model EProjectSEMIII.Models.BillingInformation
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admins/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>View Details of Bill</h2>
+
+<div>
+    <h4 style="color:green">@ViewBag.success</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt class="mt-4">
+            @Html.DisplayNameFor(model => model.CustomerName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CustomerName)
+        </dd>
+        <dt class="mt-4">
+            @Html.DisplayNameFor(model => model.CustomerPhone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CustomerPhone)
+        </dd>
+        <dt class="mt-4">
+            @Html.DisplayNameFor(model => model.CustomerAddProve)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CustomerAddProve)
+        </dd>
+        <dt class="mt-4">
+            @Html.DisplayNameFor(model => model.PolicyNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PolicyNumber)
+        </dd>
+        <dt class="mt-4">
+            @Html.DisplayNameFor(model => model.VehicleName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehicleName)
+        </dd>
+        <dt class="mt-4">
+            @Html.DisplayNameFor(model => model.VehicleModel)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehicleModel)
+        </dd>
+        <dt class="mt-4">
+            @Html.DisplayNameFor(model => model.VehicleRate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehicleRate)
+        </dd>
+        <dt class="mt-4">
+            @Html.DisplayNameFor(model => model.VehicleBodyNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehicleBodyNumber)
+        </dd>
+        <dt class="mt-4">
+            @Html.DisplayNameFor(model => model.VehicleEngineNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehicleEngineNumber)
+        </dd>
+        <dt class="mt-4">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt class="mt-4">
+            @Html.DisplayNameFor(model => model.Amount)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Amount)
+        </dd>
+        <form action="/admins/BillManages/DetailsPost/@Html.DisplayFor(model => model.BillingInformationId)">
+            <input type="hidden" id="hiddenFormId" />
+            @if (Model.Status == 0)
+            {
+                <button class="btn btn-secondary" onclick="Activate()">Activate</button>
+            }
+            else
+            {
+                <dd style="color:green">Activated</dd>
+            }
+
+        </form>
+    </dl>
+    <a asp-action="Index">Back to List</a>
+</div>

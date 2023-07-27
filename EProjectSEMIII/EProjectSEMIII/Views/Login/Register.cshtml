@@ -1,0 +1,60 @@
+﻿@model EProjectSEMIII.Models.Register
+@{
+    ViewData["Title"] = "Register";
+    Layout = "";
+}
+
+<link rel="stylesheet" href="~/Client/css/plugins.css">
+<link href="~/Client/css/styles.css" rel="stylesheet">
+<div class="row text-center pt-5" style="margin-top:150px">
+    <h2>Register</h2>
+    <div class="col-3"></div>
+    <div class="col-6">
+        <form action="" method="POST">
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-outline mb-4">
+                        <input type="text" asp-for="UserName" class="form-control" placeholder="User name" />
+                        <span class="text-danger">@ViewBag.checkUserName</span>
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-outline mb-4">
+                        <input type="password" asp-for="Password" class="form-control" placeholder="Password" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-outline mb-4">
+                        <input type="password" asp-for="RePassword" class="form-control" placeholder="Re-enter password" />
+                        <span class="text-danger">@ViewBag.ErrorRePass</span>
+                        <span asp-validation-for="RePassword" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-outline mb-4">
+                        <input type="text" asp-for="CustomerName" class="form-control" placeholder="Full Name" />
+                        <span asp-validation-for="CustomerName" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-outline mb-4">
+                        <input type="text" asp-for="CustomerPhone" class="form-control" placeholder="Phone number" />
+                        <span asp-validation-for="CustomerPhone" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-outline mb-4">
+                        <input type="text" asp-for="CustomerAdd" class="form-control" placeholder="Address" />
+                        <span asp-validation-for="CustomerAdd" class="text-danger"></span>
+                    </div>
+                </div>
+                <span class="text-danger">@ViewBag.error</span>
+                <div class="col-12"><button type="submit" class="btn btn-primary btn-block mb-4">Register</button></div>
+            </div>
+
+        </form>
+    </div>
+    <div class="col-3"></div>
+</div>

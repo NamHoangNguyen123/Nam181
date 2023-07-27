@@ -1,0 +1,95 @@
+﻿@model IEnumerable<EProjectSEMIII.Models.Estimate>
+@{
+    var vehicleInforId = ViewBag.vehicleInfor.VehicleInfomationId;
+    Layout = "~/Areas/Admins/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>View detail & Give estimates for user | Vehicle Name: @ViewBag.vehicleInfor.VehicleName</h2>
+
+<p>
+    <a href="/Admins/Estimates/Create/@vehicleInforId">Add new estimate for this vehile</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EstimateNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VehicleName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VehicleRate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VehicleModel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VehicleWarranty)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VehiclePolicyType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.InsuranceType.TypeOfInsurence)
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EstimateNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleRate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleModel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehicleWarranty)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VehiclePolicyType)
+            </td>
+            @if (item.Status == 0)
+            {
+                <td style="color:red"> Un Active</td>
+            }
+            else
+            {
+                <td style="color:green">Activated</td>
+            }
+            <td>
+                @Html.DisplayFor(modelItem => item.InsuranceType.TypeOfInsurence)
+            </td>
+            <td>
+               
+                <a asp-action="Delete" asp-route-id="@item.EstimateId">Delete</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

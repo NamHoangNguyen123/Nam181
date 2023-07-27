@@ -1,0 +1,230 @@
+﻿@model X.PagedList.IPagedList<EProjectSEMIII.Models.ClaimDetail>
+@using X.PagedList.Mvc.Core;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admins/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Claim List</h2>
+
+<div class="container pb-10">
+    <div class="row">
+        <div class="col-sm-6 position-relative ">
+            <form asp-controller="ClaimDetails" asp-action="Index" method="get">
+                <input type="text" class="" name="key" placeholder="PolicyNumber...">
+                <button type="submit" class="btn btn-default m-0 p-0"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+        </div>
+        <div class="col-sm-6 position-relative">
+            <form asp-controller="ClaimDetails" asp-action="Index" method="get">
+                <span>Sort :</span>
+                <select  style="padding:4px" id="sort" name="sort" onchange="customSort()">
+                    <option value="idASC">Id Ascending</option>
+                    <option value="idDESC">Id Descending </option>
+                    <option value="nameASC">Customer Name From a -> z</option>
+                    <option value="nameDESC">Customer Name From z -> a</option>
+                </select>
+            </form>
+        </div>
+    </div>
+</div>
+
+<span style="color:red">@ViewBag.itemNotFound</span>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().PolicyNumber)
+            </th>
+            <th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().CustomerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().PlaceOfAccident)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().DateOfAccident)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().InsuredAmout)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().ClaimableAmout)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().CustomerPolicy.CustomerPolicyId)
+            </th>
+            <th>
+                Claim Handler
+            </th>
+            <th>
+                Status
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PolicyNumber)
+            </td>
+            <td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PlaceOfAccident)
+            </td>
+            <td>
+                @item.DateOfAccident.ToString("dd MMM yyyy")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.InsuredAmout)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClaimableAmout)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerPolicy.CustomerPolicyId)
+            </td>
+            <td>
+                @if (item.AdminId != null)
+                {
+                    @item.Admin.AdminName
+                }
+                else
+                {
+                }
+            </td>
+
+                <td>
+                    @if (item.Status == 0)
+                    {
+                        <span>Pending</span>
+                    }
+                    else if (item.Status == 1)
+                    {
+                        <span>Progressing </span>
+                    }
+                    else
+                    {
+                        <span>Completed</span>
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ClaimDetailId">Update Status</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="d-flex justify-content-center">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page,name=@ViewBag.key,sort= @ViewBag.sort }),
+ new PagedListRenderOptions
+ {
+     LiElementClasses = new string[] { "page-item" },
+     PageClasses = new string[] { "page-link" }
+ }
+)
+</div>
+
+<script>
+    function customSort(){
+        var search ='name='+ '@ViewBag.key';
+        var sort ='&sort='+ document.getElementById("sort").value;
+        var page = '&page=' + '@ViewBag.page';
+        window.location.replace("/Admins/ClaimDetails?" + search + sort + page);
+    }
+</script>
+@*<p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.PolicyNumber)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PolicyStartDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PolicyEndDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CustomerName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.PlaceOfAccident)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DateOfAccident)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.InsuredAmout)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ClaimableAmout)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Status)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.CustomerPolicy)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Admin)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+    @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PolicyNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PolicyStartDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PolicyEndDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PlaceOfAccident)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateOfAccident)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.InsuredAmout)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ClaimableAmout)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerPolicy.CustomerPolicyId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Admin.AdminId)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ClaimDetailId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ClaimDetailId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ClaimDetailId">Delete</a>
+                </td>
+            </tr>
+    }
+        </tbody>
+    </table>*@

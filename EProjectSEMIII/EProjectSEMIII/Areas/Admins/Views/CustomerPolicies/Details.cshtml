@@ -1,0 +1,124 @@
+﻿@model EProjectSEMIII.Models.CustomerPolicy
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admins/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CustomerPolicy</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt class="mt-5">
+            @Html.DisplayNameFor(model => model.InsuranceType)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.InsuranceType.TypeOfInsurence)
+        </dd>
+        <dt class="mt-5">
+            @Html.DisplayNameFor(model => model.CustomerName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CustomerName)
+        </dd>
+        <dt class="mt-5">
+            @Html.DisplayNameFor(model => model.CustomerPhone)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CustomerPhone)
+        </dd>
+        <dt class="mt-5">
+            @Html.DisplayNameFor(model => model.CustomerAdd)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CustomerAdd)
+        </dd>
+        <dt class="mt-5">
+            @Html.DisplayNameFor(model => model.CustomerAddProve)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CustomerAddProve)
+        </dd>
+        <dt class="mt-5">
+            @Html.DisplayNameFor(model => model.PolicyNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PolicyNumber)
+        </dd>
+        <dt class="mt-5">
+            @Html.DisplayNameFor(model => model.PolicyDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PolicyDate)
+        </dd>
+        <dt class="mt-5">
+            @Html.DisplayNameFor(model => model.PolicyDuration)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.PolicyDuration) months
+        </dd>
+        <dt class="mt-5">
+            @Html.DisplayNameFor(model => model.VehicleName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehicleName)
+        </dd>
+        <dt class="mt-5">
+            @Html.DisplayNameFor(model => model.VehicleModel)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehicleModel)
+        </dd>
+        <dt class="mt-5">
+            @Html.DisplayNameFor(model => model.VehicleVersion)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehicleVersion)
+        </dd>
+        <dt class="mt-5">
+            @Html.DisplayNameFor(model => model.VehicleRate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehicleRate)
+        </dd>
+        <dt class="mt-5">
+            @Html.DisplayNameFor(model => model.VehicleBodyNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehicleBodyNumber)
+        </dd>
+        <dt class="mt-5">
+            @Html.DisplayNameFor(model => model.VehicleNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehicleNumber)
+        </dd>
+        <dt class="mt-5">
+            @Html.DisplayNameFor(model => model.VehicleEngineNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.VehicleEngineNumber)
+        </dd>
+        <dt class="mt-5">
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+        @if (Model.Status == 0)
+        {
+            <dd style="color:red">Un active</dd>
+        }else{
+            <dd style="color:green">Activated</dd>
+        }
+        <dt class="mt-5">
+            @Html.DisplayNameFor(model => model.BillingInformation.Amount)
+        </dt>
+        <dd>
+            $ @Html.DisplayFor(model => model.BillingInformation.Amount) 
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

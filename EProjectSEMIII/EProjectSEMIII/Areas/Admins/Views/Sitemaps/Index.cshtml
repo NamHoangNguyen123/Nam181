@@ -1,0 +1,48 @@
+﻿@model IEnumerable<EProjectSEMIII.Models.Sitemap>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admins/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Position)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LinkedMap)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Position)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                This is google link, it too long, you can see it in detail page!!
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.SiteMapId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.SiteMapId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.SiteMapId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,339 @@
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.deps.json
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.runtimeconfig.json
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.runtimeconfig.dev.json
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.dll
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.csprojAssemblyReference.cache
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.csproj.CoreCompileInputs.cache
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorAssemblyInfo.cache
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorAssemblyInfo.cs
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.AssemblyInfoInputs.cache
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.AssemblyInfo.cs
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.TagHelpers.input.cache
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.TagHelpers.output.cache
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorCoreGenerate.cache
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorTargetAssemblyInfo.cache
+c:\users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorTargetAssemblyInfo.cs
+C:\Users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.pdb
+C:\Users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.Views.dll
+C:\Users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.Views.pdb
+C:\Users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.Views.pdb
+C:\Users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.dll
+C:\Users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.pdb
+C:\Users\84373\source\repos\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.csproj.CopyComplete
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.deps.json
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.runtimeconfig.json
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.runtimeconfig.dev.json
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.dll
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.pdb
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.Views.dll
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.Views.pdb
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.csprojAssemblyReference.cache
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.csproj.CoreCompileInputs.cache
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorAssemblyInfo.cache
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorAssemblyInfo.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.AssemblyInfoInputs.cache
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.AssemblyInfo.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.TagHelpers.input.cache
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.TagHelpers.output.cache
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorCoreGenerate.cache
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorTargetAssemblyInfo.cache
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorTargetAssemblyInfo.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.Views.pdb
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.dll
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.pdb
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.csproj.CopyComplete
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\Error.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\_AdminLayout.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\_ViewImports.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\_ViewStart.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Admins\Create.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Admins\Delete.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Admins\Details.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Admins\Edit.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Admins\Index.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\BillingInformations\Create.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\BillingInformations\Delete.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\BillingInformations\Details.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\BillingInformations\Edit.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\BillingInformations\Index.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CompanyExpenses\Create.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CompanyExpenses\Delete.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CompanyExpenses\Details.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CompanyExpenses\Edit.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CompanyExpenses\Index.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerPolicies\Create.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerPolicies\Delete.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerPolicies\Details.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerPolicies\Edit.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerPolicies\Index.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\ClaimDetails\Create.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\ClaimDetails\Delete.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\ClaimDetails\Details.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\ClaimDetails\Edit.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\ClaimDetails\Index.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Home\Index.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\tieens buif\do_an_semIII\code\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\_AdminMenu.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.csprojAssemblyReference.cache
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.csproj.CoreCompileInputs.cache
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorAssemblyInfo.cache
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorAssemblyInfo.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.AssemblyInfoInputs.cache
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.AssemblyInfo.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.TagHelpers.input.cache
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.TagHelpers.output.cache
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorCoreGenerate.cache
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Home\Index.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\Error.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\_AdminLayout.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\_AdminMenu.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\_ViewImports.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\_ViewStart.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorTargetAssemblyInfo.cache
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorTargetAssemblyInfo.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.dll
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.pdb
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.deps.json
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.runtimeconfig.json
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.runtimeconfig.dev.json
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.dll
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.pdb
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.Views.dll
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.Views.pdb
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.Views.pdb
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.csproj.CopyComplete
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Login\Login.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Login\Register.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Login\Login.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\CustomerPolicy\Details.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\CustomerPolicy\Index.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\VehicleInfomation\Create.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\VehicleInfomation\Delete.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\VehicleInfomation\Details.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\VehicleInfomation\Edit.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\VehicleInfomation\Index.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Estimate\Details.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Estimate\Index.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\ClaimDetail\Create.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\ClaimDetail\Details.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\ClaimDetail\Index.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\CustomerRecord\Create.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\CustomerRecord\Delete.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\CustomerRecord\Edit.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\CustomerRecord\Index.g.cshtml.cs
+C:\Users\tungt\Downloads\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\CustomerRecord\UpdatePassword.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.deps.json
+C:\Tung\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.runtimeconfig.json
+C:\Tung\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.runtimeconfig.dev.json
+C:\Tung\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.dll
+C:\Tung\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.pdb
+C:\Tung\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.Views.dll
+C:\Tung\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.Views.pdb
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.csprojAssemblyReference.cache
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.csproj.CoreCompileInputs.cache
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorAssemblyInfo.cache
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorAssemblyInfo.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.AssemblyInfoInputs.cache
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.AssemblyInfo.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.TagHelpers.input.cache
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.TagHelpers.output.cache
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorCoreGenerate.cache
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Home\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsideVehicleTypes\Create.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsideVehicleTypes\Delete.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsideVehicleTypes\Details.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsideVehicleTypes\Edit.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsideVehicleTypes\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsuranceTypes\Create.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsuranceTypes\Delete.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsuranceTypes\Details.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsuranceTypes\Edit.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsuranceTypes\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Login\Login.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\Error.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\_AdminLayout.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\_AdminMenu.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\VehicleTypes\Create.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\VehicleTypes\Delete.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\VehicleTypes\Details.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\VehicleTypes\Edit.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\VehicleTypes\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\_ViewImports.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\_ViewStart.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\ClaimDetail\Create.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\ClaimDetail\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\CustomerPolicy\Details.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\CustomerPolicy\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\CustomerRecord\Edit.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\CustomerRecord\UpdatePassword.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Estimate\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\InsideVehicleTypes\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Login\Login.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Login\Register.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\VehicleInfomation\Details.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\VehicleInfomation\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorTargetAssemblyInfo.cache
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorTargetAssemblyInfo.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.Views.pdb
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.dll
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.pdb
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.csproj.CopyComplete
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\BillManages\Delete.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\BillManages\Details.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\BillManages\DetailsPost.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\BillManages\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerSupports\Create.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerSupports\Delete.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerSupports\Details.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerSupports\Edit.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerSupports\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Estimates\Create.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Estimates\Delete.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Estimates\Details.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Estimates\Edit.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Estimates\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Sitemaps\Create.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Sitemaps\Delete.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Sitemaps\Details.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Sitemaps\Edit.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Sitemaps\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\ClaimDetails\Edit.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\ClaimDetails\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_menu.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Contacts\Delete.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Contacts\Details.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Contacts\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerPolicies\Details.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerPolicies\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Contact\Index.g.cshtml.cs
+C:\Tung\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\CustomerSupport\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.deps.json
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.runtimeconfig.json
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.runtimeconfig.dev.json
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.dll
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.pdb
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.Views.dll
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\bin\Debug\netcoreapp2.1\EProjectSEMIII.Views.pdb
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.csprojAssemblyReference.cache
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.csproj.CoreCompileInputs.cache
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorAssemblyInfo.cache
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorAssemblyInfo.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.AssemblyInfoInputs.cache
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.AssemblyInfo.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.TagHelpers.input.cache
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.TagHelpers.output.cache
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorCoreGenerate.cache
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\BillManages\Delete.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\BillManages\Details.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\BillManages\DetailsPost.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\BillManages\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\ClaimDetails\Edit.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\ClaimDetails\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Contacts\Delete.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Contacts\Details.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Contacts\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerPolicies\Details.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerPolicies\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerSupports\Create.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerSupports\Delete.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerSupports\Details.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerSupports\Edit.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\CustomerSupports\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Estimates\Create.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Estimates\Delete.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Estimates\Details.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Estimates\Edit.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Estimates\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Home\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsideVehicleTypes\Create.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsideVehicleTypes\Delete.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsideVehicleTypes\Details.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsideVehicleTypes\Edit.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsideVehicleTypes\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsuranceTypes\Create.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsuranceTypes\Delete.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsuranceTypes\Details.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsuranceTypes\Edit.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\InsuranceTypes\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Login\Login.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\Error.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\_AdminLayout.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\_AdminMenu.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Sitemaps\Create.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Sitemaps\Delete.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Sitemaps\Details.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Sitemaps\Edit.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\Sitemaps\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\VehicleTypes\Create.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\VehicleTypes\Delete.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\VehicleTypes\Details.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\VehicleTypes\Edit.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\VehicleTypes\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\_ViewImports.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Areas\Admins\Views\_ViewStart.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\ClaimDetail\Create.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\ClaimDetail\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Contact\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\CustomerPolicy\Details.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\CustomerPolicy\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\CustomerRecord\Edit.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\CustomerRecord\UpdatePassword.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\CustomerSupport\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Estimate\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\InsideVehicleTypes\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Login\Login.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Login\Register.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_menu.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\VehicleInfomation\Details.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\VehicleInfomation\Index.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorTargetAssemblyInfo.cache
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.RazorTargetAssemblyInfo.cs
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.Views.pdb
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.dll
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.pdb
+C:\Users\KyThuat88\Downloads\EProjectSEMIII (4)\EProjectSEMIII\EProjectSEMIII\obj\Debug\netcoreapp2.1\EProjectSEMIII.csproj.CopyComplete

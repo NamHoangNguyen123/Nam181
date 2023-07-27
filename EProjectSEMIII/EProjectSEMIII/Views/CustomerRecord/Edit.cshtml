@@ -1,0 +1,69 @@
+﻿@model EProjectSEMIII.Models.CustomerRecord
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="page-title-section bg-img cover-background left-overlay-dark" data-overlay-dark="6" data-background="/Client/img/banner/slide-05.jpg">
+    <div class="container position-unset">
+        <div class="page-title mx-1-6 mx-lg-2-0 mx-xl-2-6 mx-xxl-2-9">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Profile</h1>
+               
+                </div>
+                <div class="col-md-12">
+                    <ul class="ps-0">
+                        <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a href="#!">Profile</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3"></div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="400ms" style="visibility: visible; animation-delay: 400ms; animation-name: fadeIn;">
+                <div class="bg-light p-4 p-xl-5">
+                    <div class="title mb-1-9 text-start">
+                        <h3 class="h4 text-primary">Profile</h3>
+                        <span>Select the information to be corrected to update</span>
+                    </div>
+                    <form action="" method="post">
+                        <input asp-for="CustomerRecordId" type="hidden" value="@Model.CustomerRecordId" />
+                        <input asp-for="UserName" type="hidden" value="@Model.UserName" />
+                        <ul class="mb-0 list-unstyled ps-0">
+                            <li class="mb-3">
+                                <span class="text-dark font-weight-700"> Username:</span> <span class="float-end display-30"><input style="text-align:right;border:none;background: transparent;" value="@Model.UserName" /></span>
+                            </li>
+                            <li class="mb-3">
+                                <span class="text-dark font-weight-700"> Full name:</span> <span class="float-end display-30"> <input asp-for="CustomerName" style="text-align:right;border:none;background: transparent;text-decoration:underline" value="@Model.CustomerName" /> </span>
+                                
+                            </li>
+                            <li style="text-align:right"><span asp-validation-for="CustomerName" class="text-danger"></span></li>
+                            <li class="mb-3">
+                                <span class="text-dark font-weight-700"> Address:</span> <span class="float-end display-30"><input asp-for="CustomerAdd" style="text-align:right;border:none;background: transparent;text-decoration:underline" value="@Model.CustomerAdd" /></span>
+                                
+                            </li>
+                            <li style="text-align:right"><span asp-validation-for="CustomerAdd" class="text-danger"></span></li>
+                            <li class="mb-3">
+                                <span class="text-dark font-weight-700">Phone number:</span> <span class="float-end display-30"><input asp-for="CustomerPhone"  style="text-align:right;border:none;background: transparent;text-decoration:underline" value="@Model.CustomerPhone" /></span>
+                                                          
+                            </li>
+                            <li style="text-align:right"><span asp-validation-for="CustomerPhone" class="text-danger"></span>  </li>
+                            <li class="mb-3">
+                                <button class="butn-style1 fill medium">Update profile</button>
+                                <span class="float-end display-30"><a asp-action="UpdatePassword"  asp-controller="CustomerRecord" asp-route-id="@Model.CustomerRecordId" class="butn-style1 fill medium">Change password</a></span>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-3"></div>
+        </div>
+    </div>
+</section>

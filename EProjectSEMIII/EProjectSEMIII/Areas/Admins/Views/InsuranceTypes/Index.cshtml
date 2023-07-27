@@ -1,0 +1,104 @@
+﻿@model X.PagedList.IPagedList<EProjectSEMIII.Models.InsuranceType>
+@using X.PagedList.Mvc.Core;
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admins/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<h2>Insurance Types</h2>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6 position-relative ">
+            <form asp-controller="Insurances" asp-action="Index" method="get" >
+                <input type="text" class="" name="name" placeholder="Search...">
+                <span class="uil-search"></span>
+                <button type="submit" class="btn btn-default m-0 p-0"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+        </div>
+        <div class="col-sm-6">
+
+            <form asp-controller="Insurances" asp-action="Index" method="get">
+                <span>Sort :</span>
+                <select class="" style="padding:4px" name="sort" aria-label="" onchange="customSort()">
+                    <option value="a">Id Ascending</option>
+                    <option value="b">Id Descending </option>
+                    <option value="c">Type Of Insurence From a -> z</option>
+                    <option value="d">Type Of Insurence From z -> a</option>
+
+                </select>
+            </form>
+        </div>
+    </div>
+</div>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().TypeOfInsurence)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <span style="color:red">@ViewBag.itemNotFound</span>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TypeOfInsurence)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @if (item.Status == 0)
+                    {
+                        <span style="color:aqua">Show</span>
+                    }
+                    else
+                    {
+                        <span style="color:red">Hide</span>
+                    }
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.InsurenceTypeId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.InsurenceTypeId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.InsurenceTypeId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="d-flex justify-content-center">
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page,name=@ViewBag.keySearch,sort= @ViewBag.sort }),
+    new PagedListRenderOptions
+    {
+        LiElementClasses = new string[] { "page-item" },
+        PageClasses = new string[] { "page-link" }
+    }
+    )
+    </div>
+    <script>
+    function customSort(){
+        //forms[2].submit()
+
+        var search ='name='+ '@ViewBag.keySearch';
+        var sort ='&sort='+ document.getElementById("sort").value;
+        var page = '&page=' + '@ViewBag.page';
+        window.location.replace("/Admins/Insurances?" + search + sort + page);
+    }
+    </script>
